@@ -11,8 +11,83 @@
 </head>
 <body>
   <div class="wrapper">
-    <h1 class="title">JSTEMP</h1>
-    
+    <aside class="sidebar">
+        <div class="sidebar__icon"><span class="icon"></span></div>
+    </aside>
+    <main class="main">
+      <div class="main__content">
+        <h1 class="title">JSTEMP</h1>
+        <input type="text" id="search_input">
+        <ul class="list">
+          <li>Евген</li>
+          <li>Федор</li>
+          <li>Вова</li>
+          <li>Олег</li>
+          <li>Коля</li>
+          <li>Петя</li>
+        </ul>
+      </div>
+      <div class="carousel">
+        <div class="carousel__container">
+          <div class="carousel__slide">
+            <img src="img/_img301.jpg" alt="">
+            <img src="img/_img302.jpg" alt="">
+            <img src="img/_img303.jpg" alt="">
+            <img src="img/_img304.jpg" alt="">
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="btn left"><-</button>
+          <button class="btn right">-></button>
+        </div>
+      </div>
+
+      <div class="todo">
+        <div class="todo__controls">
+          <input type="text" id="todo__input">
+          <button id="todo__btn">click</button>
+        </div>
+        <ul class="todo__list"></ul>
+      </div>
+
+      <div class="checkbox__wrapper">
+        <label for="check">Вы реальный человек?
+          <input type="checkbox" id="check">
+        </label>
+        <div class="res"></div>
+      </div>
+      
+      <div class="select__wrapper">
+        <select name="cities" id="cities__select">
+          <option value="Minsk">Минск</option>
+          <option value="Grodno">Гродно</option>
+          <option value="Brest">Брест</option>
+        </select>
+        <button type="submit" id="submitBtn">Отправить</button>
+        <div id="selectedOption"></div>
+      </div>
+
+      <a class="scroll" href="javascript:void(0)">Ткни меня</a>
+
+      <div class="slider__before_after">
+        <span id="before_btn">before</span>
+        <span id="after_btn">after</span>
+        <div class="slider_before">
+          <img src="img/_img303.jpg" class="img">
+          <div class="slider_after">
+            <img src="img/_img304.jpg" class="img">
+          </div>
+        </div>
+      </div>
+
+      <div class="validation">
+        <label for="valid">
+          <input type="text" id="valid" placeholder="type here...">
+        </label>
+        <span id="valid__result"></span>
+      </div>
+
+    </main>
   </div>
 </body>
 </html>
