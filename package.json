@@ -7,7 +7,8 @@
     "start": "webpack serve",
     "build-dev": "webpack",
     "build-prod": "webpack --node-env=production",
-    "clear": "rd /s /q dist"
+    "clear": "rd /s /q dist",
+    "server": "json-server --watch db.json --port 3005"
   },
   "keywords": [],
   "author": "",
@@ -40,6 +41,7 @@
     "webpack-dev-server": "^4.13.3"
   },
   "dependencies": {
+    "json-server": "^0.17.4",
     "normalize.css": "^8.0.1",
     "swiper": "^10.3.0"
   }

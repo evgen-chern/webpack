@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "petya",
+      "email": "petya@mail.ru"
+    },
+    {
+      "id": 2,
+      "name": "kolua",
+      "email": "kolua@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "vanya",
+      "email": "vanya@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "evgen",
+      "email": "evgen@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "dima",
+      "email": "dima@gmail.com"
+    },
+    {
+      "name": "конь",
+      "email": "в пальто",
+      "id": 10
+    },
+    {
+      "name": "Евгений",
+      "email": "chernous.eu@gmail.com",
+      "id": 11
+    },
+    {
+      "name": "asdf",
+      "email": "asdasdasd",
+      "id": 13
+    },
+    {
+      "name": "ddddd",
+      "email": "aaaaaa",
+      "id": 14
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -6,9 +6,31 @@ body{
 }
 .wrapper{
 	min-height: 100%;
-	display: flex;
+	width: 50%;
+	margin: 0 auto;
 }
 .title{
+	display: block;
+	margin-bottom: 10px;
 	font-size: 30px;
 	font-weight: 700;
+}
+
+.btn{
+	display: block;
+	padding: 5px 15px;
+	background: #c23030;
+	color: #fff;
+	margin: 15px 0;
+}
+ul{
+	li{
+		margin-bottom: 7px;
+	}
+}
+input{
+	border: 1px solid #c23030;
+	padding: 10px 20px;
+	margin: 5px;
+	width: 100%;
 }
